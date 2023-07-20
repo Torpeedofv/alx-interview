@@ -13,6 +13,7 @@ def print_stats(size, status_codes):
     for key in sorted(status_codes):
         print("{}: {}".format(key, status_codes[key]))
 
+
 if __name__ == "__main__":
     import sys
 
@@ -50,4 +51,3 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print_stats(size, status_codes)
         raise
-
