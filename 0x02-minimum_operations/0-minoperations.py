@@ -16,4 +16,4 @@ def minOperations(n):
             n //= finder
         finder += 1
 
-    return finder
+    return counter
